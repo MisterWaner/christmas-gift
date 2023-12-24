@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Joyeux Noël</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        
+        <header>
+            <div class="title-container">
+                <h1>Joyeux Noël</h1>
+            </div>
+            <div class="arrow-container">
+                <img
+                    onclick="scrollToMain()"
+                    class="arrow"
+                    src="./assets/images/arrow_circle_down_FILL0_wght400_GRAD0_opsz24.svg"
+                    alt=""
+                />
+            </div>
+        </header>
+
+        <main>
+            <div class="main-container" id="main-container">
+                <section class="main-text">
+                    <div class="part-one">
+                        <h3 class="christmas">Mon amour</h3>
+                        <p>
+                            Je sais que ce n'est pas grand chose, mais je te
+                            souhaite quand même un Joyeux Noël.
+                        </p>
+                        <p>
+                            Cette année a été difficile, mais tu as su garder le
+                            Cap, tu as gardé les épaules hautes. Tu as su faire
+                            face à toutes les épreuves que tu as rencontré.
+                        </p>
+                    </div>
+                    <div class="part-two">
+                        <p>
+                            Tu es une femme forte, bien plus forte que tu ne le
+                            penses, bien plus forte que je ne le serai jamais.
+                            Tu es le pilier de notre Famille. Tu peux être fière
+                            de Toi ! Sois-en sûre !
+                        </p>
+                        <br /><br />
+                        <p class="love christmas">Je t'aime mon amour.</p>
+                        <img
+                            onclick="scrollToCurtain()"
+                            class="chevron"
+                            src="./assets/images/expand_circle_right_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt=""
+                        />
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
