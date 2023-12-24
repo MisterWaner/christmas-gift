@@ -8,11 +8,7 @@
 }
 .christmas {
     font-weight: 400;
-    font-family: "Merry_Christmas";
-}
-@font-face {
-    font-family: "Merry_Christmas";
-    src: url("../assets/fonts/MerryChristmasFlake.ttf") format("truetype");
+    font-family: 'Damion', cursive;
 }
 html,
 body {
@@ -43,7 +39,7 @@ header > .title-container > h1 {
     color: #fff;
     font-size: 10rem;
     font-weight: 400;
-    font-family: "Merry_Christmas";
+    font-family: 'Damion', cursive;
 }
 header > .arrow-container {
     height: 50%;
